@@ -11,7 +11,7 @@ Ext.define('counter.view.Main', {
         items: [
             {
                 title: 'Counter',
-                iconCls: 'home',
+                iconCls: 'home'
 
                 styleHtmlContent: true,
                 scrollable: true,

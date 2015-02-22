@@ -73,7 +73,7 @@
     "css": [
         {
             "path": "resources/css/cupertino.css",
-            "platform": ["chrome", "safari", "ios", "ios-classic", "android", "firefox"],
+            "platform": ["chrome", "safari", "ios", "ios-classic", "android"],
             "update": "delta"
         }
     ],

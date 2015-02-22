@@ -11,10 +11,16 @@ Ext.define('counter.view.Main', {
         items: [
             {
                 title: 'Counter',
-                iconCls: 'home'
+                iconCls: 'home',
 
                 styleHtmlContent: true,
                 scrollable: true,
+
+                items: {
+                    docked: 'top',
+                    xtype: 'titlebar',
+                    title: 'Counter'
+                },
 
                 html: [
                     "OK. You've just generated a new Sencha Touch 2 project. What you're looking at right now is the ",

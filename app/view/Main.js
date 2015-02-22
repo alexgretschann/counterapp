@@ -10,7 +10,7 @@ Ext.define('counter.view.Main', {
 
         items: [
             {
-                title: 'Welcome',
+                title: 'Counter',
                 iconCls: 'home',
 
                 styleHtmlContent: true,

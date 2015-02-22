@@ -12,6 +12,9 @@
 
 Ext.application({
     name: 'counter',
+    viewport: {
+      autoMaximize: true
+    },
 
     requires: [
         'Ext.MessageBox'

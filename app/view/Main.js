@@ -17,9 +17,7 @@ Ext.define('counter.view.Main', {
                 scrollable: true,
 
                 html: [
-                    "OK. You've just generated a new Sencha Touch 2 project. What you're looking at right now is the ",
-                    "contents of <a target='_blank' href=\"app/view/Main.js\">app/view/Main.js</a> - edit that file ",
-                    "and refresh to change what's rendered here."
+                    "Counter App erlaubt dir Dinge zu zahlen. </br> +1 oder -1. "
                 ].join("")
             }
         ]
